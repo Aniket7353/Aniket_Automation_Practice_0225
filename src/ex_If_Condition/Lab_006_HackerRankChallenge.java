@@ -2,7 +2,7 @@ package ex_If_Condition;
 
 public class Lab_006_HackerRankChallenge {
     public static void main(String[] args) {
-        int score =-10;
+        int score =-101;
 
         if (score>=90 && score<=100){
             System.out.println("Student is Pass with A Grade");
