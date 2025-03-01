@@ -7,7 +7,16 @@ public class Lab_003_taskAddSubMulDiv {
 
         Scanner scanner =new Scanner(System.in);
         System.out.println("Enter Numb 1");
-        int a = scanner.nextInt();
+
+        int a = 0;
+        if (scanner.hasNextInt()){
+            a = scanner.nextInt();
+
+        }else {
+            System.out.println("Enter Int datatype only");
+            System.exit(0);
+        }
+        //int a = scanner.nextInt();
         System.out.println("Enter Numb 2");
         int b = scanner.nextInt();
 
